@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap lecture</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--Using Bootstrap classes gives the element that classes "css" design, that Boostrap library contains,
+        bg-primary gives a color, container and container-fluid gives makes the element responsive-->
+        <div class="container-fluid bg-primary">
+            <h1>My First Bootstrap page</h1>
+            <p>This part is inside a .container-fluid class</p>
+        </div>
+
+        <div class="container bg-secondary">
+            <h1>My First Bootstrap page</h1>
+            <p>This part is inside a .container-fluid class</p>
+        </div>
+
+        <div class="container border border-3 border-primary">
+            <h2>Boostrap spacing example</h2>
+            <!--bg stands for background-->
+            <div class="mt-1 bg-warning"> I only have a top margin 4px or 0.25rem </div>
+
+            <!--mt stands for margin-->
+            <div class="mt-5 bg-warning"> I only have a top margin 4px or 0.25rem </div>
+
+            <!--pt stands for padding top-->
+            <div class="pt-4 bg-warning border border">I only have top padding 1.5 rem</div>
+
+            <!--p stands for padding on all sides-->
+            <div class="p-4 bg-warning border-3 border-danger">I padding on all sides</div>
+        </div>
+
+        <div class="container mt-3">
+            <h2>Contextual Colors</h2>
+            <p>Use the contextual classes to provide "meaning through colors":</p>
+            <p class="text-muted">This text is muted.</p>
+            <p class="text-primary">This text is important.</p>
+            <p class="text-success">This text indicates success.</p>
+            <p class="text-info">This text represents some information.</p>
+            <p class="text-warning">This text represents a warning.</p>
+            <p class="text-danger">This text represents danger.</p>
+            <p class="text-secondary">Secondary text.</p>
+            <p class="text-dark">This text is dark grey.</p>
+            <p class="text-body">Default body color (often black).</p>
+            <p class="text-light">This text is light grey (on white background).</p>
+            <p class="text-white">This text is white (on white background).</p>
+        </div>
+
+        <div class="container mt-3">
+            <h2>Basic Table</h2>
+            <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>            
+            <table class="table table-striped table-dark">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+    </body>
+</html>
